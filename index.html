@@ -1,3 +1,26 @@
-<pre>
-  ok
-</pre>
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Add a plain CSS file: see https://trunkrs.dev/assets/#css -->
+    <!-- If using Tailwind with Leptos CSR, see https://trunkrs.dev/assets/#tailwind instead-->
+    <link rel="stylesheet" href="/styles-60c4419707258f5e.css" integrity="sha384&#x2D;50kyGzD&#x2B;z3OFmtQzeLlwLoLTtNMlZbAcd2fueTHfjZHk9l9zqNdG63w76580W9iS"/>
+
+    <!-- Include favicon in dist output: see https://trunkrs.dev/assets/#icon -->
+    <link rel="icon" href="/favicon-e9cbd8f50cc65bf2.ico" integrity="sha384&#x2D;YobgLXwtz0GhXVUTHml49p32guapVFlEG8UpQdDVN3kekOqkQi&#x2B;qSXEpwp&#x2B;yM4BW"/>
+
+    <!-- include support for `wasm-bindgen --weak-refs` - see: https://rustwasm.github.io/docs/wasm-bindgen/reference/weak-references.html -->
+    
+<script type="module" nonce="D1V0hZVrlytBfxU5e+TkJg==">
+import init, * as bindings from '/leptos-csr-analytics-template-c5a2d7edff847433.js';
+const wasm = await init('/leptos-csr-analytics-template-c5a2d7edff847433_bg.wasm');
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script>
+  <link rel="modulepreload" href="/leptos-csr-analytics-template-c5a2d7edff847433.js" crossorigin=anonymous integrity="sha384-o/xavFYl1dNd7qwmCnUeAVlE+ZOezaf3W8lNXD7nsZGPCJsf6YLrVbJTcPhRMccd"><link rel="preload" href="/leptos-csr-analytics-template-c5a2d7edff847433_bg.wasm" crossorigin=anonymous integrity="sha384-p/gzfrrzfM5237YL/dxY722AL5tXOxhj9vhC31Yex8pbDve8fcBFiS6os0F8ft3y" as="fetch" type="application/wasm"></head>
+  <body></body>
+</html>
